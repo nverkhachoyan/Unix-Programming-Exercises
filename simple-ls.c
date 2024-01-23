@@ -22,6 +22,6 @@ main(int argc, char *argv[]) {
 		printf("%s\n", dirp->d_name); 	
 	}
 
-
+	closedir(dp);
 	return 0;
 }
